@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
+    private RecyclerView recyclerView, recyclerView2;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     String[] name1 = {"Hello","Hi","Bye", "tata","Thanks"};
@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recycle_view);
-        adapter = new RecyclerAdapter(name1, name2);
+        recyclerView2 = findViewById(R.id.recycle_view2);
+        adapter = new RecyclerAdapter(recyclerView2);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
