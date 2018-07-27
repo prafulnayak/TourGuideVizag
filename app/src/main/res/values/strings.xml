@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TourGuideVizag</string>
+    <string name="highlights">Highlights</string>
+    <string name="beach">Beaches</string>
 </resources>
