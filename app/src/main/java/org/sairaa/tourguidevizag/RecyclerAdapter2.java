@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.RecyclerViewHolder> {
     String[] name1, name2;
-    public RecyclerAdapter2(String[] name1, String[] name2){
+    RecyclerAdapter2(String[] name1, String[] name2){
         this.name1 = name1;
         this.name2 = name2;
     }
@@ -35,7 +35,7 @@ public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.Recy
         TextView tx1, tx2;
         public RecyclerViewHolder(View itemView) {
             super(itemView);
-            tx1 = itemView.findViewById(R.id.item_text2);
+            tx1 = itemView.findViewById(R.id.near_by_area);
         }
     }
 }
