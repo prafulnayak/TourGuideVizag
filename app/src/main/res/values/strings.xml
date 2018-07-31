@@ -148,5 +148,13 @@
     <string name="thirty">30</string>
     <string name="aquarium_place_desc"><![CDATA[An array of freshwater & saltwater fish, plus tortoises, are exhibited in this roomy aquarium.]]></string>
     <string name="museum">Museum</string>
+    <string name="thirty_one">31</string>
+    <string name="rosshill">Ross Hill</string>
+    <string name="rosshill_place_desc"><![CDATA[Sweeping sea & port views draw visitors to this hillside Christian church with a white exterior.]]></string>
+    <string name="rosshill_longitude_latitude">17.690521, 83.287080</string>
+    <string name="mapUri">com.google.android.apps.maps</string>
+    <string name="geo">geo:</string>
+    <string name="near_by">Near By </string>
+    <string name="area">Area : </string>
 
 </resources>

@@ -9,5 +9,26 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="Heading">
+        <item name="android:textSize">@dimen/fifteenSp</item>
+        <item name="android:layout_marginLeft">@dimen/eightDp</item>
+        <item name="android:layout_marginTop">@dimen/fiveDp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/google_sans_bold</item>
+    </style>
+    <style name="subHeading">
+        <item name="android:textSize">@dimen/thirteenteenSp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginLeft">@dimen/eightDp</item>
+        <item name="android:layout_marginTop">@dimen/fiveDp</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+        <style name="Heading2">
+        <item name="android:textSize">@dimen/fifteenSp</item>
+        <item name="android:layout_marginLeft">@dimen/eightDp</item>
+        <item name="android:textColor">@color/colorT</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
 
 </resources>

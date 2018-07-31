@@ -11,12 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.RecyclerViewHolder> {
-    String[] name1, name2;
     ArrayList<TourPlace> nearByTourPlaces;
-    RecyclerAdapter2(String[] name1, String[] name2){
-        this.name1 = name1;
-        this.name2 = name2;
-    }
 
     public RecyclerAdapter2(ArrayList<TourPlace> tourPlaces) {
         this.nearByTourPlaces = tourPlaces;
@@ -34,10 +29,8 @@ public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.Recy
     public void onBindViewHolder(@NonNull RecyclerViewHolder holder, int position) {
         final TourPlace tPlace = nearByTourPlaces.get(position);
         holder.image.setBackgroundResource(tPlace.getImageId());
-        holder.tx1.setText(tPlace.getArea());
+        holder.tx1.setText(holder.tx1.getContext().getString(R.string.near_by)+" "+tPlace.getArea());
         holder.placeName.setText(tPlace.getPlaceName());
-//        holder.imageView.setBackgroundResource(tPlace.getImageId());
-//        holder.tx1.setText(name1[position]);
     }
 
     @Override

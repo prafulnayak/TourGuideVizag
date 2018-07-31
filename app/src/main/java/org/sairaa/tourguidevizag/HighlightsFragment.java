@@ -64,9 +64,6 @@ public class HighlightsFragment extends Fragment {
         recyclerView.setAdapter(adapter);
         return rootView;
     }
-//    int imageId,int highlights,int typeFragment,
-//    String placeName,String placeDesc,String area,
-//    String city,String state,String location)
     private void addTourPlaces() {
         tourPlaces.add(new TourPlace(R.drawable.kailashgiri,
                 Integer.parseInt(getString(R.string.one)),
@@ -338,6 +335,15 @@ public class HighlightsFragment extends Fragment {
                 getString(R.string.Vizag),
                 getString(R.string.ap),
                 getString(R.string.aquarium_longitude_latitude)));
+        tourPlaces.add(new TourPlace(R.drawable.rosshill,
+                Integer.parseInt(getString(R.string.thirty_one)),
+                Integer.parseInt(getString(R.string.three)),
+                getString(R.string.rosshill),
+                getString(R.string.rosshill_place_desc),
+                getString(R.string.nad),
+                getString(R.string.Vizag),
+                getString(R.string.ap),
+                getString(R.string.rosshill_longitude_latitude)));
 
     }
 }

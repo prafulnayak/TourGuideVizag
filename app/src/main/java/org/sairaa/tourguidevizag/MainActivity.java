@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView, recyclerView2;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
-//    String[] name1 = {"Hello","Hi","Bye", "tata","Thanks"};
-//    String[] name2 = {"Hello","Hi","Bye", "tata","Thanks"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,12 +37,5 @@ public class MainActivity extends AppCompatActivity {
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
 
-//        recyclerView = findViewById(R.id.recycle_view);
-//        recyclerView2 = findViewById(R.id.recycle_view2);
-//        adapter = new RecyclerAdapter(recyclerView2);
-//        layoutManager = new LinearLayoutManager(this);
-//        recyclerView.setLayoutManager(layoutManager);
-//        recyclerView.setHasFixedSize(true);
-//        recyclerView.setAdapter(adapter);
     }
 }
